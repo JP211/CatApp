@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB5208E5217E849E007CCF92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB5208E4217E849E007CCF92 /* Images.xcassets */; };
+		EBC12BBD217B15F80079F390 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC12BBC217B15F80079F390 /* AppDelegate.swift */; };
+		EBC12BBF217B15F80079F390 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC12BBE217B15F80079F390 /* ViewController.swift */; };
+		EBC12BC2217B15F90079F390 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC12BC0217B15F90079F390 /* Main.storyboard */; };
+		EBC12BC5217B15F90079F390 /* Poe_Knows.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EBC12BC3217B15F90079F390 /* Poe_Knows.xcdatamodeld */; };
+		EBC12BC7217B15FF0079F390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBC12BC6217B15FF0079F390 /* Assets.xcassets */; };
+		EBC12BCA217B15FF0079F390 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC12BC8217B15FF0079F390 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB5208E4217E849E007CCF92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EBC12BB9217B15F80079F390 /* Poe Knows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poe Knows.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC12BBC217B15F80079F390 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBC12BBE217B15F80079F390 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBC12BC1217B15F90079F390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBC12BC4217B15F90079F390 /* Poe_Knows.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Poe_Knows.xcdatamodel; sourceTree = "<group>"; };
+		EBC12BC6217B15FF0079F390 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBC12BC9217B15FF0079F390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBC12BCB217B15FF0079F390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBC12BB6217B15F80079F390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBC12BB0217B15F80079F390 = {
+			isa = PBXGroup;
+			children = (
+				EBC12BBB217B15F80079F390 /* Poe Knows */,
+				EBC12BBA217B15F80079F390 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBC12BBA217B15F80079F390 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBC12BB9217B15F80079F390 /* Poe Knows.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBC12BBB217B15F80079F390 /* Poe Knows */ = {
+			isa = PBXGroup;
+			children = (
+				EBC12BBC217B15F80079F390 /* AppDelegate.swift */,
+				EBC12BBE217B15F80079F390 /* ViewController.swift */,
+				EBC12BC0217B15F90079F390 /* Main.storyboard */,
+				EBC12BC6217B15FF0079F390 /* Assets.xcassets */,
+				EB5208E4217E849E007CCF92 /* Images.xcassets */,
+				EBC12BC8217B15FF0079F390 /* LaunchScreen.storyboard */,
+				EBC12BCB217B15FF0079F390 /* Info.plist */,
+				EBC12BC3217B15F90079F390 /* Poe_Knows.xcdatamodeld */,
+			);
+			path = "Poe Knows";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBC12BB8217B15F80079F390 /* Poe Knows */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBC12BCE217B15FF0079F390 /* Build configuration list for PBXNativeTarget "Poe Knows" */;
+			buildPhases = (
+				EBC12BB5217B15F80079F390 /* Sources */,
+				EBC12BB6217B15F80079F390 /* Frameworks */,
+				EBC12BB7217B15F80079F390 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Poe Knows";
+			productName = "Poe Knows";
+			productReference = EBC12BB9217B15F80079F390 /* Poe Knows.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBC12BB1217B15F80079F390 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Jessica Peters";
+				TargetAttributes = {
+					EBC12BB8217B15F80079F390 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = EBC12BB4217B15F80079F390 /* Build configuration list for PBXProject "Poe Knows" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBC12BB0217B15F80079F390;
+			productRefGroup = EBC12BBA217B15F80079F390 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBC12BB8217B15F80079F390 /* Poe Knows */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBC12BB7217B15F80079F390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC12BCA217B15FF0079F390 /* LaunchScreen.storyboard in Resources */,
+				EB5208E5217E849E007CCF92 /* Images.xcassets in Resources */,
+				EBC12BC7217B15FF0079F390 /* Assets.xcassets in Resources */,
+				EBC12BC2217B15F90079F390 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBC12BB5217B15F80079F390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBC12BBF217B15F80079F390 /* ViewController.swift in Sources */,
+				EBC12BBD217B15F80079F390 /* AppDelegate.swift in Sources */,
+				EBC12BC5217B15F90079F390 /* Poe_Knows.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBC12BC0217B15F90079F390 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBC12BC1217B15F90079F390 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBC12BC8217B15FF0079F390 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBC12BC9217B15FF0079F390 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBC12BCC217B15FF0079F390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBC12BCD217B15FF0079F390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBC12BCF217B15FF0079F390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T56874KA64;
+				INFOPLIST_FILE = "Poe Knows/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Media-Coconut-HeavenMemoirs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBC12BD0217B15FF0079F390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T56874KA64;
+				INFOPLIST_FILE = "Poe Knows/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Media-Coconut-HeavenMemoirs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBC12BB4217B15F80079F390 /* Build configuration list for PBXProject "Poe Knows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC12BCC217B15FF0079F390 /* Debug */,
+				EBC12BCD217B15FF0079F390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBC12BCE217B15FF0079F390 /* Build configuration list for PBXNativeTarget "Poe Knows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBC12BCF217B15FF0079F390 /* Debug */,
+				EBC12BD0217B15FF0079F390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EBC12BC3217B15F90079F390 /* Poe_Knows.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EBC12BC4217B15F90079F390 /* Poe_Knows.xcdatamodel */,
+			);
+			currentVersion = EBC12BC4217B15F90079F390 /* Poe_Knows.xcdatamodel */;
+			path = Poe_Knows.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EBC12BB1217B15F80079F390 /* Project object */;
+}

@@ -1,0 +1,69 @@
+For the ask me a question feature:
+Yes, No, Meh, Purrhaps, Probably, You know the answer in your heart
+
+
+Submit your own motivational notes mode (user enters as many random quotes as they want and Poe will randomly generate them back on button press)
+
+
+Submit a random quote and the winner will be featured and added to Poe's saying bank
+
+Give Poe a treat!
+
+Programmer mode (similar to the rubber duck) If you don't have a rubber duck handy, Poe will gladly listen to all of your programming problems. 
+
+Poe can generate a lucky number for you.
+
+Poe can generate a random food for you to try if you don't know what to eat.
+
+Poe can generate a random song for you.
+
+Poe will recommend a new game for you to try.
+
+Poe will flip a coin for you.
+
+Poe will pick a number between 1-10
+
+
+
+
+For the random fortune mode:
+
+1. A delicious snack is in the near future!
+
+2. If you work hard, you can achieve anything!
+
+3. A penny saved is a penny not spent.
+
+4. Try something new today!
+
+5. Try a new approach.
+
+6. Don't forget to eat something healthy. 
+
+7. Something exciting is going to happen!
+
+8. Everything will be ok.
+
+9. It's not the best but it's not the worst either.
+
+10. You will see a shooting star tonight!
+
+11. Do or do not. There it no try.
+
+12. It's ok if you fail, you can always try again.
+
+13. You will make a new friend soon!
+
+14. Sometimes the easy way out is the lazy way out.
+
+15. Did you remember to do the dishes?
+
+16. That homework isn't doing itself ya know!
+
+17. Learn something new today!
+
+18. It's a new day!
+
+19. Today will be extra lucky.
+
+20. The answer you seek is unknown.

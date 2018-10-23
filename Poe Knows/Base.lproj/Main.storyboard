@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Poe_Knows" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="mak-0q-ILR">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="poeQuestion" translatesAutoresizingMaskIntoConstraints="NO" id="NDK-7e-IUB">
+                                <rect key="frame" x="-64" y="107" width="463" height="441"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pearlball" translatesAutoresizingMaskIntoConstraints="NO" id="dDe-Hx-Jrh">
+                                <rect key="frame" x="-30" y="364" width="334" height="184"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mak-0q-ILR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7F3-K0-Hcr"/>
+                            <constraint firstItem="mak-0q-ILR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="9CJ-l6-gJk"/>
+                            <constraint firstItem="mak-0q-ILR" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="VSd-Ha-zxn"/>
+                            <constraint firstItem="mak-0q-ILR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="elQ-Bw-Gxn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="56.25" y="26.408450704225352"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="3840" height="2160"/>
+        <image name="pearlball" width="2400" height="2400"/>
+        <image name="poeQuestion" width="1076" height="1554"/>
+    </resources>
+</document>
